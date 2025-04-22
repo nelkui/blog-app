@@ -1,0 +1,79 @@
+.sidebar {
+    width: 200px; /* Increased width for better readability */
+    position: absolute; /* or fixed, depending on your layout */
+    top: 650px; /* Add some top margin */
+    right: 20px; /* Add some right margin */
+    height:auto;
+    margin: 10;
+    padding: 15px;
+    background-color: #fdfbfb;
+    border-radius: 8px; /* Slightly more rounded corners */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.sidebarItem {
+    margin-bottom: 15px; /* Increased spacing between items */
+    text-align: left;
+}
+
+.sidebarTitle {
+    margin: 15px 0 8px; /* Adjusted margins */
+    padding-bottom: 5px; /* Adjusted padding */
+    border-bottom: 1px solid #e0e0e0; /* Lighter border */
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px; /* Slightly larger font */
+    color: #333; /* Darker text */
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase; /* Uppercase title */
+    letter-spacing: 0.3px; /* Add letter spacing */
+}
+
+.sidebarItem > img {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 6px; /* Rounded corners for image */
+    object-fit: cover; /* Maintain image aspect ratio */
+    max-height: 30px;
+}
+
+.sidebarItem > p {
+    padding: 10px 0;
+    line-height: 1.4; /* Improved line height */
+    color: #555; /* Slightly lighter text */
+    font-size: 12px;
+}
+
+.sidebarList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.sidebarListItem {
+    margin-top: 8px;
+    cursor: pointer;
+    color: #444;
+    font-size: 12px;
+}
+
+.sidebarSocial {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebarIcon {
+    font-size: 16px; /* Larger icons */
+    margin-right: 10px;
+    color: #888; /* Muted color */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.sidebarIcon:hover {
+    color: #333; /* Darker color on hover */
+}
